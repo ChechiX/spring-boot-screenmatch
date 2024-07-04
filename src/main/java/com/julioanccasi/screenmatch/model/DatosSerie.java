@@ -12,6 +12,18 @@ public record DatosSerie(
         Integer totalDeTemporadas,
 
         @JsonAlias("imdbRating")
-        String evaluacion
+        String evaluacion,
+
+        @JsonAlias("Poster")
+        String poster,
+
+        @JsonAlias("Genre")
+        String genero,
+
+        @JsonAlias("Actors")
+        String actores,
+
+        @JsonAlias("Plot")
+        String sinopsis
 ) {
 }
